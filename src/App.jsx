@@ -44,9 +44,9 @@ function App() {
             <Route path='/instant-consultation' element={<InstantConsultation/>} />
             <Route path="/finddoctor" element={<FindDoctorSearchIC />} />
             <Route path='/search/doctors' element={<BookingConsultation /> } />
-            <Route path='/reviews' element={<ReviewForm/>}/>
-            <Route path='/profile' element={<ProfileCard/>} />
-            <Route path='/reports' element={<ReportsLayout/>} />
+            {/* <Route path='/reviews' element={<ReviewForm/>}/> */}
+            {/* <Route path='/profile' element={<ProfileCard/>} /> */}
+            {/* <Route path='/reports' element={<ReportsLayout/>} /> */}
 
           </Routes>
         </BrowserRouter>

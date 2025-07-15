@@ -61,7 +61,7 @@ const BookingConsultation = () => {
     return (
         <center>
             <div  className="searchpage-container">
-            <FindDoctorSearchIC onSearch={handleSearch} />
+            <FindDoctorSearch onSearch={handleSearch} />
             <div className="search-results-container">
             {isSearched ? (
                 <center>
@@ -82,4 +82,4 @@ const BookingConsultation = () => {
     )
 }
 
-export default InstantConsultation
+export default BookingConsultation;

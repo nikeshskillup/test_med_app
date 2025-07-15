@@ -10,6 +10,19 @@ import Navbar from './Components/Navbar/Navbar';
 import Landing_Page from './Components/Landing_Page/Landing_Page';
 import Login from './Components/Login/Login';
 import Sign_Up from './Components/Sign Up/Sign_Up';
+import AppointmentFormIC from './Components/InstantConsultation/AppointmentFormIC/AppointmentFormIC';
+import InstantConsultation from './Components/InstantConsultation/InstantConsultation';
+import FindDoctorSearchIC from './Components/InstantConsultation/FindDoctorSearchIC/FindDoctorSearchIC';
+import BookingConsultation from './Components/BookingConsultation'
+
+
+import FindDoctorSearch from './Components/FindDoctorSearch/FindDoctorSearch';
+// import BookingConsultation from './components/BookingConsultation';
+// import Notification from './components/Notification/Notification';
+// import ReviewForm from './components/ReviewForm/ReviewForm'
+// import ProfileCard from './components/ProfileCard/ProfileCard';
+// import ReportsLayout from './components/ReportsLayout/ReportsLayout';
+
 
 // Function component for the main App
 function App() {
@@ -28,6 +41,12 @@ function App() {
             <Route path="/" element={<Landing_Page/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<Sign_Up/>}/>
+            <Route path='/instant-consultation' element={<InstantConsultation/>} />
+            <Route path="/finddoctor" element={<FindDoctorSearchIC />} />
+            <Route path='/search/doctors' element={<BookingConsultation /> } />
+            <Route path='/reviews' element={<ReviewForm/>}/>
+            <Route path='/profile' element={<ProfileCard/>} />
+            <Route path='/reports' element={<ReportsLayout/>} />
 
           </Routes>
         </BrowserRouter>

@@ -19,9 +19,9 @@ import BookingConsultation from './Components/BookingConsultation'
 import FindDoctorSearch from './Components/FindDoctorSearch/FindDoctorSearch';
 // import BookingConsultation from './components/BookingConsultation';
 // import Notification from './components/Notification/Notification';
-import ReviewForm from './components/ReviewForm/ReviewForm'
-// import ProfileCard from './components/ProfileCard/ProfileCard';
-// import ReportsLayout from './components/ReportsLayout/ReportsLayout';
+import ReviewForm from './Components/ReviewForm/ReviewForm'
+import ProfileCard from './Components/ProfileCard/ProfileCard';
+import ReportsLayout from './Components/ReportsLayout/ReportsLayout';
 
 
 // Function component for the main App
@@ -45,8 +45,8 @@ function App() {
             <Route path="/finddoctor" element={<FindDoctorSearchIC />} />
             <Route path='/search/doctors' element={<BookingConsultation /> } />
             <Route path='/reviews' element={<ReviewForm/>}/>
-            {/* <Route path='/profile' element={<ProfileCard/>} /> */}
-            {/* <Route path='/reports' element={<ReportsLayout/>} /> */}
+            <Route path='/profile' element={<ProfileCard/>} />
+            <Route path='/report' element={<ReportsLayout/>} />
 
           </Routes>
         </BrowserRouter>

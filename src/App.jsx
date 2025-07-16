@@ -19,7 +19,7 @@ import BookingConsultation from './Components/BookingConsultation'
 import FindDoctorSearch from './Components/FindDoctorSearch/FindDoctorSearch';
 // import BookingConsultation from './components/BookingConsultation';
 // import Notification from './components/Notification/Notification';
-// import ReviewForm from './components/ReviewForm/ReviewForm'
+import ReviewForm from './components/ReviewForm/ReviewForm'
 // import ProfileCard from './components/ProfileCard/ProfileCard';
 // import ReportsLayout from './components/ReportsLayout/ReportsLayout';
 
@@ -44,7 +44,7 @@ function App() {
             <Route path='/instant-consultation' element={<InstantConsultation/>} />
             <Route path="/finddoctor" element={<FindDoctorSearchIC />} />
             <Route path='/search/doctors' element={<BookingConsultation /> } />
-            {/* <Route path='/reviews' element={<ReviewForm/>}/> */}
+            <Route path='/reviews' element={<ReviewForm/>}/>
             {/* <Route path='/profile' element={<ProfileCard/>} /> */}
             {/* <Route path='/reports' element={<ReportsLayout/>} /> */}
 
